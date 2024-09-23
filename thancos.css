@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+}
+header{position: fixed;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-color: rgba(11, 11, 11, 0.122);
+
+}
+a{ padding:0 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+select{
+    font-size: 20px;
+    border: none;
+    margin:0 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+
+}
+header img{
+    height: 40px;
+    width: 80px;
+}
+/* ==========================home======================= */
+.home{height:100vh;
+
+    background-image: url("./home_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* =========================section===================== */
+section{height:850px ;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 220px;
+    background-image: url("./section_background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.box_q_a{
+transform: translateY(-95px);
+    height:440px ;
+    width: 340px;
+    font-family:'Satisfy', cursive;
+    line-height: 36px;
+    font-size: 21px;
+    padding: 10px;
+    background-color: inherit;
+    color: white;
+}
+section img{
+    transform: translateX(140px);
+}
+section h1{
+    color: #a50018;
+    text-align: center;
+   
+}
+.quality{
+
+    position: relative;
+    right: 50px;
+}
+.awards{
+    
+    position: relative;
+    left: 50px;
+
+}
+#award{
+    transform: translateX(75px) translateY(20px);
+}
+/* =======================3 cards============================ */
+.cards{
+    height: 105vh;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    background-image: url("./card_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+padding: 0 220px;
+}
+.card1,.card2,.card3{
+
+    text-align: center;
+    height: 600px;
+    width: 320px;
+    background-size: cover ;
+    font-size: 24px;
+    font-style: cursive;
+}
+.card1{
+    background-image: url(./card1.png);
+    background-position: center;
+
+}
+.card2{
+    background-image: url(./card2.png);
+    background-position: center;
+    
+}
+.card3{
+    background-image: url(./card3.png);
+    background-position: center;
+    
+}
+.card_inside{
+    margin-top: 150px;
+    color: white;
+    font-style:cursive;
+}
+/* ==========================form================================= */
+
+.form{
+    height: 500px;
+    background-color: aqua;
+    background-image: url(./form_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;    
+
+}
+
+form{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+.form h1{  margin-left: 220px;
+    transform: translateY(30px);
+    font: cursive;
+    color: white;
+}
+input{
+    height: 40px;
+    width: 1070px;
+    margin-top:29px ;
+    
+    background-color:inherit;
+    /* border: 0.5 solid white; */
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+}
+input::placeholder{
+    color: white;
+}
+textarea{
+    width: 1070px;
+    margin-top:29px ;
+    height: 150px;
+    border-style: solid;
+    background-color:inherit;
+    /* border: 0.5 solid white; */
+    border-color:white;
+    border-radius: 5px;
+    
+}
+textarea::placeholder{
+    color: white;
+    padding: 10px;
+}
+button{margin-top:29px ;
+    height: 40px;
+    width: 120px;
+    border-color: yellow;
+    border-style: solid;
+    color: yellow;
+    background-color: inherit;
+    font-size: 22px;
+    transform: translateX(477px);
+}
+/* =================================footer====================================== */
+footer{
+    height: 50vh;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-left:200px;
+padding-right: 280px;
+/* padding-top: 100px; */
+background-color:  #222;
+}
+footer div{
+    
+    height: 200px;
+    width: 360px;
+    
+}
+footer img{
+    transform: translateX(-45px) translateY(-23px);
+}
+footer h3,p{ line-height: 35px;
+    font-family: cursive;
+    font-size: 18px;
+    color: white;
+}
+#contact{
+    color:#7cda24; ;
+}
